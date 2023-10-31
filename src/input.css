@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed{
+  @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm  dark:bg-opacity-50;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
